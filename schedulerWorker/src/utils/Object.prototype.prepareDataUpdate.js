@@ -8,7 +8,7 @@ if (!Object.prototype.prepareDataUpdate) {
           typeof $this[column] === 'boolean'
             ? $this[column]
             : $this[column]
-            ? `'${$this[column]}'`.replace(/\\/, '')
+            ? `'${$this[column]}'`.replace(/\\/i, '')
             : 'null'
         }`
     );
