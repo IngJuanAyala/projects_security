@@ -41,10 +41,7 @@ db = {
     return new Promise((resolve, reject) => {
       db.connect()
         .then(connection => {
-          connection.query({
-            sql: query,
-            values: params
-          }, function (err, reply) {
+          connection.query(query, params, function (err, reply) {
             connection.release();
             if (err) {
               return reject(err);
