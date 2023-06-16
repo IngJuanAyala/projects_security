@@ -16,7 +16,6 @@ db = {
       password: DB_PASSWORD,
       database: DB_DATABASE
     };
-
     return mysqlParams;
   },
   connect: () => {
