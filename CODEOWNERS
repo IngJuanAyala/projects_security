@@ -1,0 +1,13 @@
+.eslintignore @cebroker/architecture-team
+.eslintrc.js @cebroker/architecture-team
+.prettierignore @cebroker/architecture-team
+.prettierrc @cebroker/architecture-team
+
+# These owners will be the default owners for everything in
+# the repo. Unless a later match takes precedence,
+# this team will be requested for
+# review when someone opens a pull request.
+
+* @cebroker/ceb-foundation
+
+.github/ @cebroker/architecture-team
