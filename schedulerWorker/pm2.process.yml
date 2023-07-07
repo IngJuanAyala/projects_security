@@ -1,7 +1,0 @@
-apps:
-  - script: src/index.js
-    name: 'ceb-core-common-report-scheduler'
-    log_date_format: 'YYYY/MM/DD HH:mm:ss'
-    max_memory_restart: 250M
-    instances: 1
-    exec_mode: fork
